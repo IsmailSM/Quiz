@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <title>Quiz تعرفشي</title> 
+    <link rel="stylesheet" href="Quiz.css">
+    <!--icones-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+   
+    <!--start button-->
+    <div class="start_btn"><button> إبدأ اللعبة</button></div>
+
+    <!--info box-->
+    <div class="info_box" dir="rtl">
+        <div class="info_title">
+            <span>قواعد اللعبة</span>
+        </div>
+        <div class="info_list">
+            <div class="info">1) عندك <span>15 ثانية</span> باش تجاوب على كل سؤال</div>
+            <div class="info"> 2) أول ما تختار إجابتك ما عادش تجم تبدّلها  </div>
+            <div class="info"> 3) ما تجمش تبدّل إجابتك بعد ما يوفى الوقت  </div>
+            <div class="info"> 4) باش تاخو نقاط على كل إجابة صحيحة  </div>
+        </div>
+        <div class="buttons">
+            <button class="quit">غادر اللعبة</button>
+            <button class="restart">كمّل اللعبة</button>
+        </div>
+    </div>  
+    
+    <!--Quiz box-->
+    <div class="quiz_box" dir="rtl">
+        <header>
+            <div class="title" > Quiz تعرفشي </div>
+            <div class="timer">
+                <div class="time_text">الوقت الباقي</div>
+                <div class="timer_sec">15</div>
+            </div>  
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+              <!--  <span> قدّاش فمّا من باب في البلاد العربي؟ </span> -->
+            </div>
+            <div class="option_list">
+                <!--<div class="option" >
+                    <span>15 باب</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option" >
+                    <span>14 باب</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option" >
+                    <span>13 باب</span>
+                </div>
+                <div class="option" >
+                    <span>12 باب</span>
+                </div> -->           
+            </div>
+        </section>
+
+       <!--Quiz Box Footer -->
+       <footer>
+        <div class="total_que">
+           <!-- <span><p>2</p><p></p>من<p>5</p> أسئلة</span>-->
+        </div>
+        <button class="next_btn">السؤال التالي</button>
+       </footer>
+    </div>
+
+         <!--Quiz Box Footer -->
+     <div class="result_box" dir="rtl">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">كمّلت الQuiz</div>
+        <div class="score_text"> 
+         <!--  <span> و جبت <p>2</p>من<p>5</p></span> --> 
+        </div>
+        <div class="buttons">
+            <button class="restart">عاود ألعب</button>
+            <button class="quit">غادراللعبة</button>
+        </div>
+     </div>
+<script src="Quiz.js"></script>
+<script src="Questions.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
